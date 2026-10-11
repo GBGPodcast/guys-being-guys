@@ -1,0 +1,2 @@
+export type Episode = { id:string; title:string; slug:string; description:string|null; artwork_url:string|null; audio_url:string|null; video_url:string|null; published_at:string|null; duration_seconds:number|null; status:"draft"|"published"|"scheduled"|"archived"; source_guid:string|null };
+export type Person = { id:string; name:string; slug:string; role:"host"|"guest"|"both"; bio:string|null; image_url:string|null; website_url:string|null; instagram_url:string|null; youtube_url:string|null };
